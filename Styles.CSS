@@ -27,29 +27,54 @@ body{
     margin-top: 90px;
     margin-bottom: 90px;
     background-color: white;
-    width: 1000px;
+    width: 1200px;
     
     color: gray
     
     
 }
 
+.title-container{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    margin: 0 90px;
+    padding: 0;
+}
+
+.title-input{
+    border: 0;
+    margin: 0 65px 0 0;
+    padding: 0;
+    width: 30px;
+}
+
+.title-label{
+    border: 0;
+    margin: 0 15px;
+    padding: 0;
+}
+
 label{
     border: 0;
-    margin: 0;
+    margin: 0 90px;
     padding: 0;
 }
 
 input{
     color: black;
-    height: 110px;
+    height: 55px;
     
-    margin: 0px 30px;
+    margin: 0 90px 50px 90px;
     padding: 0;
 
     width: 1000px;
 
-    font-size: 60px;
+    font-size: 50px;
 }
 
 h1{
