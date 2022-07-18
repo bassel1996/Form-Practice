@@ -114,10 +114,22 @@ input{
 .button{
     border: 0;
     border-radius: 25px;
-    width: 300px;
-    margin: 15px;
+    height: min-content;
+    margin: 25px 15px 45px;
+
+    padding: 10px 0px;
+
+    cursor: pointer;
+    transition: opacity 0.15s;
 
     color: white;
     background: rgb(126,0,124);
     background: linear-gradient(90deg, rgba(126,0,124,1) 0%, rgba(213,10,10,1) 35%, rgba(222,132,0,1) 100%);;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+.button:active{
+    opacity: 0.5;
 }
